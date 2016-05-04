@@ -1,0 +1,21 @@
+
+.Loader {
+  position: relative;
+}
+
+.LoaderSpinner {
+  content: '';
+  display: block;
+  background-image: url('/src/spinner.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 32px;
+  width: 32px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -16px;
+  margin-top: -16px;
+  pointer-events: none;
+  box-sizing: border-box;
+}
