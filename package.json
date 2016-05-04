@@ -1,6 +1,6 @@
 {
   "name": "@segment/deku-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A loader component for Deku.",
   "main": "lib/index.js",
   "style": "lib/index.css",
