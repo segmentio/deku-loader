@@ -17,5 +17,10 @@
     "deku": "^0.5.6",
     "postcss-cli": "^2.5.1",
     "postcss-image-inliner": "^0.3.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/segmentio/deku-loader.git"
+  },
+  "license": "MIT"
 }
