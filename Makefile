@@ -33,4 +33,7 @@ clean:
 distclean: clean
 	rm -rf node_modules
 
-.PHONY: clean distclean build
+gh-pages: build
+	./node_modules/.bin/gh-pages --dist $<
+
+.PHONY: clean distclean build gh-pages
