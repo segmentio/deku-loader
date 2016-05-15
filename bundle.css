@@ -1,0 +1,21 @@
+
+.Loader {
+  position: relative;
+}
+
+.LoaderSpinner {
+  content: '';
+  display: block;
+  background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2232%22%20height%3D%2232%22%20viewBox%3D%220%200%2032%2032%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20stroke%3D%22%235CCC5C%22%3E%20%20%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%20%20%20%20%3Cg%20transform%3D%22translate%281%201%29%22%20stroke-width%3D%222%22%3E%20%20%20%20%20%20%3Ccircle%20stroke%3D%22%23EBE5DA%22%20cx%3D%2215%22%20cy%3D%2215%22%20r%3D%2215%22%2F%3E%20%20%20%20%20%20%3Cpath%20d%3D%22M30%2C15%20C30%2C6.71666667%2023.2833333%2C0%2015%2C0%22%3E%20%20%20%20%20%20%20%20%3CanimateTransform%20attributeName%3D%22transform%22%20type%3D%22rotate%22%20from%3D%220%2015%2015%22%20to%3D%22360%2015%2015%22%20dur%3D%220.5s%22%20repeatCount%3D%22indefinite%22%2F%3E%20%20%20%20%20%20%3C%2Fpath%3E%20%20%20%20%3C%2Fg%3E%20%20%3C%2Fg%3E%3C%2Fsvg%3E');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 32px;
+  width: 32px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -16px;
+  margin-top: -16px;
+  pointer-events: none;
+  box-sizing: border-box;
+}
