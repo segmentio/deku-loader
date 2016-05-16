@@ -1,4 +1,11 @@
 
+1.1.0 / 2016-05-16
+==================
+
+  * index: add "padding" prop (#3)
+  * Readme: add example
+  * add "gh-pages"
+
 1.0.1 / 2016-05-04
 ==================
 
