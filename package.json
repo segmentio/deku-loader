@@ -5,7 +5,8 @@
   "main": "lib/index.js",
   "style": "lib/index.css",
   "dependencies": {
-    "virtual-element": "^1.2.0"
+    "add-px": "^1.0.0",
+    "magic-virtual-element": "^1.0.6"
   },
   "devDependencies": {
     "autoprefixer": "^6.3.6",

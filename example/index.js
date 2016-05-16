@@ -14,7 +14,7 @@ const App = {
     return (
       <div class="App">
         <h1>loader</h1>
-        <Loader isLoading={state.loading}>
+        <Loader isLoading={state.loading} padding="100px">
           <h2>hi! im some content that takes awhile to load.</h2>
         </Loader>
       </div>
